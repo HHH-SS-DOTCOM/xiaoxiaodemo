@@ -1,0 +1,121 @@
+.box1{
+    width: 100%;
+    height: 150px;
+    /* background-color: aqua; */
+}
+.headpart{
+    margin: 0 auto;
+    width: 1000px;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.logo{
+    background: url(/小兔鲜/images/logo.png);
+    width: 200px;
+    height: 88px;
+    margin-top: 20px;
+}
+.enter{
+    padding-top: 100px;
+}
+.enter a,
+.enter i
+{
+    color: aqua;
+    font-family: "Microsoft YaHei", "微软雅黑", sans-serif;
+}
+.bodypart{
+    background: url(/小兔鲜/uploads/banner1.png) no-repeat;
+    width: 100%;
+    height: 550px;  
+    background-size: 100% 100%;
+    position: relative;
+}
+.login{
+    right: 100px;
+    top: 50px;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+.login-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.active{
+    display: block;
+}
+.login-body{
+    height: 100px;
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+    /* display: block; */
+  /* flex-direction: column; */
+}
+.login-body input{
+    padding-left: 15px;
+    width: 250px;
+    height: 40px;
+    border: black solid 1px;
+    /* margin-bottom: 15px; */
+    margin-top: 15px; 
+}
+.box2{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.login-body .read{
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+.login-body span{
+    font-size: 12px;
+} 
+.login-body a{
+    color: red;
+}
+.login-body button{
+    margin-top: 10px;
+    width: 250px;
+    height: 40px;
+    background-color:aquamarine;
+    text-align: center;
+}   
+.help{
+    margin: 0;
+    margin-top: 18px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.help a{
+    font-size: 12px;
+}
+.login-img{
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+}
+.login-img img{
+    width: 150px;
+    height: 150px;
+}
+.login-body p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.login-nav .active{
+    padding-bottom: 10px;
+    border-bottom: 4px solid aqua;
+}
